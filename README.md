@@ -1,7 +1,7 @@
-# TextureArrayBuilder
+# Texture Array Builder
 Provides an importer for Godot 3 that creates TextureArray or Texture3D resources from a `JSON` build file.
 
-Forked from [awkwardpolygons/BetterTextureArray](https://github.com/awkwardpolygons/better-texture-array) by Adrien de Pierres. This copy includes only the `JSON` importer for simplicity, avoiding undiagnosed errors in the inspector editor. For a complete fork with some bug fixes, see [Wolfe2x7/BetterTextureArray](https://github.com/Wolfe2x7/better-texture-array).
+Forked from [awkwardpolygons/better-texture-array](https://github.com/awkwardpolygons/better-texture-array) by Adrien de Pierres. This copy includes only the `JSON` importer for simplicity, avoiding undiagnosed errors in the inspector editor. For a complete fork with some bug fixes, see [Wolfe2x7/better-texture-array](https://github.com/Wolfe2x7/better-texture-array).
 
 # Explanation
 Godot 3.x has very buggy behaviour when attempting to save a TextureLayered (TextureArray and Texture3D), it also has poor support for TextureLayered (TextureArray and Texture3D) in the editor.
@@ -16,7 +16,7 @@ With the TextureArrayBuilder importer, you can use a simple `JSON` build format 
 # Guide
 ## Installation
 1. To install copy the `texture-array-builder` from the `addons` folder to your project's `addons` folder.
-2. Open your project in the edtior and choose Project Settings... -> Plugins from the Project menu and enable TextureArrayBuilder.
+2. Open your project in the editor and choose Project Settings... -> Plugins from the Project menu and enable TextureArrayBuilder.
 
 ## Importer
 Create a `JSON` file with a `.ta-builder` file extension for TextureArray and `.t3d-builder` extension for Texture3D.
